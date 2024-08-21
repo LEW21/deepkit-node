@@ -1,7 +1,10 @@
 {
   "name": "deepkit-node",
-  "version": "0.1.0",
-  "packageManager": "yarn@4.4.0",
+  "version": "0.1.1",
+  "description": "ts-node with explicit support for Deepkit Runtime Types",
+  "repository": "https://github.com/LEW21/deepkit-node",
+  "author": "Linus Lewandowski <linus@lew21.net>",
+  "license": "MIT",
   "exports": {
     ".": "./deepkit-node.mjs",
     "./loader": "./deepkit-node.loader.mjs"
