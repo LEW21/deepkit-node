@@ -1,0 +1,15 @@
+{
+	"type": "module",
+	"name": "deepkit-minimum-example",
+	"version": "0.0.1",
+	"description": "Minimum example using Deepkit's runtime types.",
+	"private": true,
+	"dependencies": {
+		"@deepkit/core": "^1.0.1-alpha.147",
+		"@deepkit/type": "^1.0.1-alpha.153"
+	},
+	"devDependencies": {
+		"deepkit-node": "workspace:^",
+		"typescript": "^5.5.4"
+	}
+}

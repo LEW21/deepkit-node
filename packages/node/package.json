@@ -1,0 +1,19 @@
+{
+  "name": "deepkit-node",
+  "version": "0.1.0",
+  "packageManager": "yarn@4.4.0",
+  "exports": {
+    ".": "./deepkit-node.mjs",
+    "./loader": "./deepkit-node.loader.mjs"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@deepkit/type-compiler": "^1.0.1-alpha.150",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

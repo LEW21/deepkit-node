@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "repository": "https://github.com/LEW21/deepkit-node",
+  "author": "Linus Lewandowski <linus@lew21.net>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "typescript": "^5.5.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@4.4.0"
+}
